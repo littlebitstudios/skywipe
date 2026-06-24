@@ -111,7 +111,7 @@ async function finalizeDeletion() {
     <div id="requestzone">
       <h2>Step 1: Request Delete Token</h2>
       <p>
-        Enter your old PDS domain, email/handle/DID, and password; then click "Get Delete Token". <br>
+        Enter your old PDS domain, email/handle/DID, and password; then click "Request Deletion". <br>
         You'll get an email from your old PDS provider (Bluesky or other). <br>
         MFA enabled? Start by entering just your email/handle/DID and password, then click the button.
       </p>
