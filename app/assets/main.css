@@ -1,0 +1,132 @@
+@charset "utf-8";
+@import url("https://rsms.me/inter/inter.css");
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: InterVariable, Inter, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+a {
+    color: lightgreen;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a,
+button {
+    background-color: #00ffff;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: none;
+    font-family: InterVariable, Inter, sans-serif;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+nav a.warning,
+button.warning {
+    background-color: white;
+    color: red;
+}
+
+nav a:hover,
+button:hover {
+    background-color: #6f00ff;
+    color: white;
+}
+
+nav a:active,
+button:active {
+    background-color: #0000ff;
+    color: white;
+}
+
+h1,
+h2 {
+    font-family: InterVariable, Inter, sans-serif;
+}
+
+article {
+    text-align: left;
+    position: relative;
+    left: 25%;
+    right: 25%;
+}
+
+.articleinfo {
+    font-family: InterVariable, Inter, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ol,
+ul {
+    list-style-position: inside;
+}
+
+/* List Item */
+ul li {
+    text-align: left;
+    position: relative;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+div#internal-warning-banner {
+    background: none;
+    color: red;
+    font-family: InterVariable, Inter, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid red;
+    margin: 10px 0;
+}
+
+input {
+    font-family: InterVariable, Inter, sans-serif;
+    font-size: 14px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.inputgroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+#addresses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width:1200px) {
+
+    /* List Item */
+    ul li {
+        left: 308px;
+    }
+
+}

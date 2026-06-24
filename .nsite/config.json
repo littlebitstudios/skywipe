@@ -1,0 +1,19 @@
+{
+  "$schema": "https://nsyte.run/schemas/config.schema.json",
+  "bunkerPubkey": "08fa7121cab8f165df8f364d0a5bc660a9b5e8704d9e5c9728cde72f00fb084b",
+  "relays": [
+    "wss://relay.primal.net",
+    "wss://nos.lol",
+    "wss://rilo.nostria.app",
+    "wss://relay.littlebitstudios.com"
+  ],
+  "servers": [
+    "https://relay.littlebitstudios.com",
+    "https://milo.nostria.app",
+    "https://blossom.primal.net",
+    "https://blossom.ditto.pub"
+  ],
+  "id": "skywipe",
+  "title": "SkyWipe",
+  "description": "A minimal site to delete lingering Bluesky accounts after PDS migrations"
+}
